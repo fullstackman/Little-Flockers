@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Test file: Flocker Project, Case 1 -->
+<!-- A flocker with obstacle force avoids obstacles -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="750" height="600" time="300" debug="true">
+<flocker x="50" y="250" heading="0" size="25" cone="45"
+         clear="true" debug="false" clearance="140" viewAngle="180"
+         evade="true" align="true" center="true" follow="true"/>
+<light x="480" y="450" r="0" g="0" b="100" />
+<!-- <flocker x="100" y="250" heading="0" size="25" cone="45"
+         clear="true" debug="false" clearance="140" viewAngle="180"
+         evade="true" align="true" center="true" follow="true"/> -->
+<rock    x="300" y="250" size="55" ow="10" />
+<rock    x="150" y="210" size="25" ow="10" />
+<rock    x="450" y="110" size="25" ow="10" />
+<light x="480" y="50" r="100" g="0" b="0" />
+</world>
+

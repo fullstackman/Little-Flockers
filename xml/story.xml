@@ -1,0 +1,43 @@
+<!-- @author Brandon Diaz-Abreu-->
+<?xml version="1.0"?>
+<!-- A flock will  do some cool stuff-->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="750" height="600" time="40" debug="true" >
+<defaults>
+   <!-- default settings -->
+   <flocker 
+         debug="false" clear="true" viewAngle="180"
+         evade="true" align="true" center="true" follow="true" />
+</defaults>
+<flocker x="175" y="150" heading="90" size="25"
+         r="255" g="0" b="0"/>
+<flocker x="175" y="450" heading="270" size="25"
+         r="0" g="0" b="255"/>
+<flocker x="530" y="450" heading="270" size="25"
+         r="0" g="0" b="0"/>
+<flocker x="530" y="150" heading="180" size="25"
+         r="0" g="255" b="0"/>
+
+<rock    x="80" y="505" size="155" ow="10" />
+<rock    x="670" y="505" size="155" ow="10" />
+<rock    x="295" y="505" size="155" ow="10" />
+<rock    x="435" y="505" size="155" ow="10" />
+
+<rock    x="80" y="85" size="155" ow="10" />
+<rock    x="670" y="85" size="155" ow="10" />
+<rock    x="275" y="85" size="155" ow="10" />
+<rock    x="425" y="85" size="155" ow="10" />
+
+<light x="350" y="275" r="100" g="0" b="80" />
+<light x="350" y="375" r="100" g="0" b="0" />
+<light x="275" y="300" r="100" g="200" b="0" />
+<light x="425" y="300" r="150" g="0" b="150" />
+
+<light x="175" y="110" r="200" g="100" b="70"/>
+<light x="165" y="435" r="50" g="150" b="255"/>
+<light x="530" y="480" r="140" g="80" b="10"/>
+<light x="530" y="110" r="200" g="200" b="200"/>
+
+</world>
+
