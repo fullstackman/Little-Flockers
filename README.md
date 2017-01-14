@@ -1,6 +1,7 @@
 # Little Flockers
 My favorite project from CS 440 - Intro to Artificial Intelligence!
 Requires Java (maybe as little as Java 3?)
+
 ![A screenshot of the simulation in action](https://raw.githubusercontent.com/brandon8000/Little-Flockers/master/Flockers.JPG "Look at those flockers go!")
 
 How To Use
